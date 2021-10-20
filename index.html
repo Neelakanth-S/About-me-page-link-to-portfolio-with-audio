@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neelakanth's portfolio</title>
+    <style>
+      .parallax {
+        height: 80vh;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        background-image: url("https://images.unsplash.com/photo-1603575448360-153f093fd0b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80");
+      }
+      body {
+        margin: 0;
+      }
+      #Au{
+          text-align: center;
+          margin-top: 30px;
+          background-color: tomato;
+          
+      }
+      .section2{
+          text-align: center;
+          margin: 20px;
+          background-color: lightblue;
+
+      }
+      button{
+          margin-right: 5px;
+          font-size:medium;
+          color: red;
+          padding: 5px;
+          background-color: yellow;
+          border-radius: 50px;
+      }
+      button:hover{
+          background-color: greenyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <!--section 1: landing page -->
+
+    <div class="parallax">
+        
+    </div>
+    <!-- section 2:About Me -->
+    <div class="section2">
+        <h2>About me</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <button><a href="https://neelakanth-s.github.io/Neelakanth_Resume/" style="text-decoration: none; ">click to go to my portfolio</a></button>
+    <button  onclick="window.location.href='https://neelakanth-s.github.io/About-Me-Example-page/'"><a href="" target="blank" style="text-decoration: none;">click to go to about me</a></button>
+    </div>
+
+    <!-- section 3:audio  -->
+    <div id="Au">
+        <audio controls autoplay >
+            <source src="my.mp3">
+        </audio>
+    </div>
+  </body>
+</html>
